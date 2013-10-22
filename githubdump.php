@@ -49,5 +49,6 @@ function githubdump_get_branch($githubdump_payload, $githubdump_required_branch)
 			     'branch' => $githubdump_received_branch,
 			     );
 	}
+	print 'It works ;)';
 	return FALSE;
 }
